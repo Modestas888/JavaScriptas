@@ -63,3 +63,8 @@ for (let k = 0; k < i; k++){
 
   document.getElementById('output').innerHTML = output;
 });
+
+
+function newFunction() {
+           document.getElementById("clear").reset();
+        }
