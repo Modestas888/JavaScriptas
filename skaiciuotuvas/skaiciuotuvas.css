@@ -1,0 +1,18 @@
+#result {
+  border: 2px solid black;
+width: 116px;
+height: 30px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+}
+.number{
+  margin: 8px;
+}
+/* .result {
+
+} */

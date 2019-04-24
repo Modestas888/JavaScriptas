@@ -1,3 +1,13 @@
+function myFunction() {
+             var x = document.getElementById("mybtn").value;
+             document.getElementById("inputas1").innerHTML = x;
+         }
+
+
+
+
+
+
 const sum = document.getElementById('sum');
 sum.addEventListener('click', function(event){
   let nb1 = Number(document.getElementById('inputas1').value);
