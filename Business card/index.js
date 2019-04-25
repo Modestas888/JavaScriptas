@@ -36,25 +36,10 @@ const print = () => {
 
   let content = document.createElement("p");
   content.textContent = `${name}, ${mail}, ${addres}, ${numberis}, ${cription}`;
+  document.getElementById('cardinfo').innerHTML = null;
   document.getElementById('cardinfo').appendChild(content);
 
-  //
-  // let content = document.createElement("p");
-  //   content.textContent = `${mail}`;
-  //   document.getElementById('cardinfo').appendChild(content);
-  //
-  // let content = document.createElement("p");
-  //     content.textContent = `${addres}`;
-  //     document.getElementById('cardinfo').appendChild(content);
-  //
-  // let content = document.createElement("p");
-  //     content.textContent = `${numberis}`;
-  //     document.getElementById('cardinfo').appendChild(content);
-  //
-  // let content = document.createElement("p");
-  //     content.textContent = `${cription}`;
-  //     document.getElementById('cardinfo').appendChild(content);
-  //
+
 
                                                                                            ////
 
