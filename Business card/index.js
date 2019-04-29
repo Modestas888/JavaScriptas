@@ -35,7 +35,7 @@ const print = () => {
   document.getElementById('description').value = cription;
 
   let content = document.createElement("p");
-  content.textContent = `${name}, ${mail}, ${addres}, ${numberis}, ${cription}`;
+  content.textContent = `${name} ${mail} ${addres} ${numberis} ${cription}`;
   document.getElementById('cardinfo').innerHTML = null;
   document.getElementById('cardinfo').appendChild(content);
 
