@@ -39,9 +39,5 @@ const print = () => {
   document.getElementById('cardinfo').innerHTML = null;
   document.getElementById('cardinfo').appendChild(content);
 
-
-
-                                                                                           ////
-
 }
 print();

@@ -16,6 +16,18 @@ triangle.addEventListener('click', function(){
   document.getElementById('output').innerHTML = pyramide
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
 // trikampis
 
 const pyramid = document.getElementById('pyramid');
