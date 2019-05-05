@@ -34,3 +34,21 @@ function myFunctio() {
   document.getElementById("demo").innerHTML = pushing;
 }
 // // reverse
+document.getElementById("splices").addEventListener("click", myFunctio);
+function myFunctio() {
+  pushing.splice(1,2);
+  document.getElementById("demo").innerHTML = pushing;
+}
+// // splice
+document.getElementById("golast").addEventListener("click", myFunctio);
+function myFunctio() {
+  pushing.push(pushing.shift());
+  document.getElementById("demo").innerHTML = pushing;
+}
+// // go last
+document.getElementById("gofirst").addEventListener("click", myFunctio);
+function myFunctio() {
+  pushing.unshift(pushing.pop());
+  document.getElementById("demo").innerHTML = pushing;
+}
+// go first
