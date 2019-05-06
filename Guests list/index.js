@@ -52,3 +52,18 @@ function myFunctio() {
   document.getElementById("demo").innerHTML = pushing;
 }
 // go first
+document.getElementById("gofirst").addEventListener("click", myFunctio);
+function myFunctio() {
+  pushing.unshift(pushing.pop());
+  document.getElementById("demo").innerHTML = pushing;
+}
+// document.getElementById("sortaz").addEventListener("click", myFunctio);
+// function myFunctio() {
+//   pushing.sort();
+//   document.getElementById("demo").innerHTML = pushing;
+// }
+document.getElementById("sortza").addEventListener("click", myFunctio);
+function myFunctio() {
+  pushing.sort().reverse();
+  document.getElementById("demo").innerHTML = pushing;
+}
