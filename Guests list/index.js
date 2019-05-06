@@ -57,13 +57,14 @@ function myFunctio() {
   pushing.unshift(pushing.pop());
   document.getElementById("demo").innerHTML = pushing;
 }
-// document.getElementById("sortaz").addEventListener("click", myFunctio);
-// function myFunctio() {
-//   pushing.sort();
-//   document.getElementById("demo").innerHTML = pushing;
-// }
-document.getElementById("sortza").addEventListener("click", myFunctio);
-function myFunctio() {
-  pushing.sort().reverse();
+document.getElementById("sortaz").addEventListener("click", myFunctios);
+function myFunctios() {
+  pushing.sort((a, b) => a.localeCompare(b));
+  document.getElementById("demo").innerHTML = pushing;
+}
+
+document.getElementById("sortza").addEventListener("click", sortas);
+function sortas() {
+  pushing.sort((b, a) => a.localeCompare(b));
   document.getElementById("demo").innerHTML = pushing;
 }
