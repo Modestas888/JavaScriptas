@@ -474,3 +474,22 @@ return result
 
 
 console.log(objektas);
+
+
+
+filter + Map
+
+// let selectedProducts = products.filter(value => value.selected === true);
+// // console.log(selectedProducts);
+// // let inStock = products.filter(value => value.stock >= 1).map(value => value.id);
+// // let almostOutOfStock = products.filter((value) => {
+// //   return value.stock <= 2 && value.stock > 0
+// // }).map(value => value.id);
+// // let outOfStock = products.filter(value => value.stock === 0).map(value => value.id);
+// let all = {
+//   inStock: products.filter(value => value.stock > 2).map(value => value.id),
+//   almostOutOfStock: products.filter((value) => value.stock <= 2 && value.stock > 0
+//   ).map(value => value.id),
+//   outOfStock: products.filter(value => value.stock === 0).map(value => value.id)
+// }
+// console.log(all);
