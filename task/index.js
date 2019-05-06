@@ -477,7 +477,7 @@ console.log(objektas);
 
 
 
-filter + Map
+// filter + Map
 
 // let selectedProducts = products.filter(value => value.selected === true);
 // // console.log(selectedProducts);
