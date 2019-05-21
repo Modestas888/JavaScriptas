@@ -4,16 +4,17 @@ document.getElementById("addend").addEventListener("click", myFunction);
 function myFunction() {
   pushing.push(document.getElementById("input").value);
   document.getElementById("demo").innerHTML = pushing;
-// add end
+// a  dd end
 
 }
 
-document.getElementById("addstart").addEventListener("click", unshiftinimas);
+  document.getElementById("addstart").addEventListener("click", unshiftinimas);
 function unshiftinimas() {
   pushing.unshift(document.getElementById("input").value);
   document.getElementById("demo").innerHTML = pushing;
   // add start
 }
+
 document.getElementById("removefirst").addEventListener("click", removinimasFirst);
 function removinimasFirst() {
     pushing.shift().value;
