@@ -49,3 +49,10 @@
 
           }
             console.log(paskaita([ { name: `Jon`, age: 15 }, { name: `Marry`, age: 12 } ], `name`));
+
+            // Six task
+
+            function miniTask() {
+              return 
+
+            }
